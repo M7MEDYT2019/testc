@@ -6,29 +6,11 @@ client.on('ready', () => {
 });
 
 client.on('ready', async() => {
-var server = "495608433064673281"; // ايدي السررفر
-var channel = "503222092469239808";//ايدي الروم
+var server = "515893561645072386"; // ايدي السررفر
+var channel = "516209355167760405";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('** فرعونفؤعونفؤعونفؤعونفؤعونفؤعونفرعونفؤعونفؤعونفؤعونفؤعونفرعونفرعونفرعونفؤعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفؤعونفؤعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفؤعونفرعونفرعونفؤعونفرعونفرعونفؤعونفؤعونفؤعونفؤعونفؤعونفؤعونفرعونفرعونفرعونفرعونفرعونفؤعونفرعونفرعونفرعومفرعون **')
+    client.guilds.get(server).channels.get(channel).send('** محمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمد **')
     },305);
-})
-
-
-
-client.on('ready', async() => {
-var server = "495608433064673281"; // ايدي السررفر
-var channel = "503222092469239808";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('#daily')
-    },86400);
-})
-
-client.on('ready', async() => {
-var server = "495608433064673281"; // ايدي السررفر
-var channel = "503222092469239808";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('#rep <@314135031029170197>')
-    },86400);
 })
 
 
@@ -41,7 +23,29 @@ message.channel.send(args);
 });
  
 
+client.on('message', message => {
+	if(message.content === '1'){
+        message.channel.send('#daily')
+    }
+});
 
+client.on('message', message => {
+	if(message.content === '2'){
+        message.channel.send('#credit')
+    }
+});
+
+client.on('message', message => {
+	if(message.content === '3'){
+        message.channel.send('#rep <@420637382644072451>')
+    }
+});
+
+client.on('message', message => {
+     if(message.content === '4'){
+        message.member.voiceChannel.join();
+    }
+});
 
 
 
