@@ -14,8 +14,6 @@ var channel = "516209355167760405";//ايدي الروم
 })
 
 
-
-
 client.on('message', message => {
 if(message.content.startsWith('6s')) {
 if(message.author.id !== "314135031029170197") return;
@@ -25,7 +23,6 @@ message.channel.send(args);
 });
 
 
-  
 
 client.on('message', message => {
 	if(message.content === '1'){
@@ -50,7 +47,6 @@ client.on('message', message => {
         message.member.voiceChannel.join();
     }
 });
-
 
 
 
