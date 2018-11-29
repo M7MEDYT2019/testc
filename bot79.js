@@ -6,43 +6,18 @@ client.on('ready', () => {
 });
 
 client.on('ready', async() => {
-var server = "495608433064673281"; // ايدي السررفر
-var channel = "505518691249684480";//ايدي الروم
+var server = "515893561645072386"; // ايدي السررفر
+var channel = "516209355167760405";//ايدي الروم
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('** فرعونفؤعونفؤعونفؤعونفؤعونفؤعونفرعونفؤعونفؤعونفؤعونفؤعونفرعونفرعونفرعونفؤعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفؤعونفؤعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفرعونفؤعونفرعونفرعونفؤعونفرعونفرعونفؤعونفؤعونفؤعونفؤعونفؤعونفؤعونفرعونفرعونفرعونفرعونفرعونفؤعونفرعونفرعونفرعومفرعون **')
+    client.guilds.get(server).channels.get(channel).send('** محمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمدمحمد **')
     },305);
 })
 
 
 
-client.on('ready', async() => {
-var server = "495608433064673281"; // ايدي السررفر
-var channel = "505518691249684480";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('#daily')
-    },8.64e+7);
-})
-
-client.on('ready', async() => {
-var server = "495608433064673281"; // ايدي السررفر
-var channel = "505518691249684480";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('#rep <@314135031029170197>')
-    },8.64e+7);
-})
-
-
 client.on('message', message => {
 if(message.content.startsWith('79s')) {
-if(message.author.id !== "314135031029170197") return;
-var args = message.content.split(' ').slice(1).join(' ');
-message.channel.send(args);
-}
-});
- 
-client.on('message', message => {
-if(message.content.startsWith('79s')) {
-if(message.author.id !== "420637382644072451") return;
+if(message.author.id !== "502474928466165760") return;
 var args = message.content.split(' ').slice(1).join(' ');
 message.channel.send(args);
 }
